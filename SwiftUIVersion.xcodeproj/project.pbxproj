@@ -15,6 +15,8 @@
 		26E762D02B0EE48300007EBD /* ForegroundWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E762CF2B0EE48300007EBD /* ForegroundWrapper.swift */; };
 		26E762D22B0EE71600007EBD /* TabBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E762D12B0EE71600007EBD /* TabBadgeView.swift */; };
 		26E762D42B0EE84E00007EBD /* BadgeWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E762D32B0EE84E00007EBD /* BadgeWrapper.swift */; };
+		26E762D82B0EF23600007EBD /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E762D72B0EF23600007EBD /* ButtonView.swift */; };
+		26E762DC2B0EF5BA00007EBD /* ButtonWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E762DB2B0EF5BA00007EBD /* ButtonWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		26E762CF2B0EE48300007EBD /* ForegroundWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForegroundWrapper.swift; sourceTree = "<group>"; };
 		26E762D12B0EE71600007EBD /* TabBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBadgeView.swift; sourceTree = "<group>"; };
 		26E762D32B0EE84E00007EBD /* BadgeWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeWrapper.swift; sourceTree = "<group>"; };
+		26E762D72B0EF23600007EBD /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		26E762DB2B0EF5BA00007EBD /* ButtonWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 				26E762BD2B0EDE4D00007EBD /* SwiftUIVersionApp.swift */,
 				26E762BF2B0EDE4D00007EBD /* ContentView.swift */,
 				26E762D12B0EE71600007EBD /* TabBadgeView.swift */,
+				26E762D72B0EF23600007EBD /* ButtonView.swift */,
 				26E762C12B0EDE5000007EBD /* Assets.xcassets */,
 				26E762C32B0EDE5000007EBD /* Preview Content */,
 			);
@@ -91,6 +96,7 @@
 			children = (
 				26E762CF2B0EE48300007EBD /* ForegroundWrapper.swift */,
 				26E762D32B0EE84E00007EBD /* BadgeWrapper.swift */,
+				26E762DB2B0EF5BA00007EBD /* ButtonWrapper.swift */,
 			);
 			path = Wrapper;
 			sourceTree = "<group>";
@@ -168,9 +174,11 @@
 				26E762CD2B0EDF7C00007EBD /* PointBackgroundText.swift in Sources */,
 				26E762C02B0EDE4D00007EBD /* ContentView.swift in Sources */,
 				26E762D22B0EE71600007EBD /* TabBadgeView.swift in Sources */,
+				26E762DC2B0EF5BA00007EBD /* ButtonWrapper.swift in Sources */,
 				26E762D42B0EE84E00007EBD /* BadgeWrapper.swift in Sources */,
 				26E762D02B0EE48300007EBD /* ForegroundWrapper.swift in Sources */,
 				26E762BE2B0EDE4D00007EBD /* SwiftUIVersionApp.swift in Sources */,
+				26E762D82B0EF23600007EBD /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
