@@ -54,18 +54,18 @@ struct ButtonView: View {
         Image(systemName: "flame")
             .scaleEffect(2)
             .padding()
-            .onTapGesture {
-                print("image")
-            }
+//            .onTapGesture {
+//                print("image")
+//            }
     }
     
     var rectangle: some View {
         Rectangle()
             .padding()
             .frame(height: 100)
-            .onTapGesture {
-                print("rectangle")
-            }
+//            .onTapGesture {
+//                print("rectangle")
+//            }
     }
 }
 
