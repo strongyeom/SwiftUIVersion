@@ -10,10 +10,30 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+            
+            
             Image(systemName: "globe")
                 .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+                .foreground(color: .red) // 추상화 시킨 #available 사용
+            
+            
+            Button {
+                
+            } label: {
+                Text("Button")
+                    .font(.largeTitle)
+                    .bold()
+                    .foregroundStyle(.gray)
+            }
+            
+            
+            
+            Text("iOS")
+                .asPointBackgroundText()
+            Text("SwiftUI")
+                .asPointBackgroundText()
+            Text("UIKit")
+                .asPointBackgroundText()
         }
         .padding()
     }
