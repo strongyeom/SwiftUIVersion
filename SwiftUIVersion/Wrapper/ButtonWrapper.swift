@@ -9,6 +9,7 @@ import SwiftUI
 
 private struct ButtonWrapper : ViewModifier {
     
+    // 사용하려는 View에서 이벤트를 받기위해 변수 생성
     let action: () -> Void
     
     
