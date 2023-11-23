@@ -14,8 +14,34 @@ struct MainView: View {
     var body: some View {
         // NavigationView(content: <#T##() -> View#>) 클로저 안에 들어가는것과 동일하게 만들어주기 위해 wrapper의 init에 만들어줌 또한 ZStack이 올지 어떤게 올지 모르기 때문에 제네릭으로 설정 SwiftUI에서는 T 대신 Content를 사용
         NavigationWrapper {
-            Text("이것이 네비이다.")
-            sample
+           
+            VStack {
+                Text("이것이 네비이다.")
+                sample
+            }
+            .navigationTitle("메인")
+            .navigationBar {
+                Image(systemName: "flame")
+            } trailing: {
+                Image(systemName: "star")
+            }
+
+            
+            
+            
+//            .toolbar {
+//
+//                ToolbarItem(placement: .navigationBarLeading) {
+//                    Image(systemName: "flame")
+//                }
+//
+//                ToolbarItem(placement: .navigationBarTrailing) {
+//                    Image(systemName: "star")
+//                }
+//            }
+            // ---- deprecated -----
+//            .navigationBarItems(leading: Image(systemName: "flame"),
+//                                trailing: EmptyView())
         }
     }
     // 15.0 이상부터는 ViewBuilder가 없어졌지만 ⭐️조건문⭐️이 있을때는 붙여야함

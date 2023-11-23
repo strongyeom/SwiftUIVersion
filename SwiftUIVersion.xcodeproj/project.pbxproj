@@ -19,6 +19,7 @@
 		26E762DC2B0EF5BA00007EBD /* ButtonWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E762DB2B0EF5BA00007EBD /* ButtonWrapper.swift */; };
 		26E762DE2B0EF8E200007EBD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E762DD2B0EF8E200007EBD /* MainView.swift */; };
 		26E762E02B0EF97A00007EBD /* NavigationWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E762DF2B0EF97A00007EBD /* NavigationWrapper.swift */; };
+		26E762E22B0F174900007EBD /* NavigationBarWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E762E12B0F174900007EBD /* NavigationBarWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		26E762DB2B0EF5BA00007EBD /* ButtonWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWrapper.swift; sourceTree = "<group>"; };
 		26E762DD2B0EF8E200007EBD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		26E762DF2B0EF97A00007EBD /* NavigationWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationWrapper.swift; sourceTree = "<group>"; };
+		26E762E12B0F174900007EBD /* NavigationBarWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				26E762D32B0EE84E00007EBD /* BadgeWrapper.swift */,
 				26E762DB2B0EF5BA00007EBD /* ButtonWrapper.swift */,
 				26E762DF2B0EF97A00007EBD /* NavigationWrapper.swift */,
+				26E762E12B0F174900007EBD /* NavigationBarWrapper.swift */,
 			);
 			path = Wrapper;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			files = (
 				26E762CD2B0EDF7C00007EBD /* PointBackgroundText.swift in Sources */,
 				26E762DE2B0EF8E200007EBD /* MainView.swift in Sources */,
+				26E762E22B0F174900007EBD /* NavigationBarWrapper.swift in Sources */,
 				26E762C02B0EDE4D00007EBD /* ContentView.swift in Sources */,
 				26E762D22B0EE71600007EBD /* TabBadgeView.swift in Sources */,
 				26E762DC2B0EF5BA00007EBD /* ButtonWrapper.swift in Sources */,
