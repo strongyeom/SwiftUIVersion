@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		269CEE582B10298400477D04 /* ComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269CEE572B10298400477D04 /* ComponentView.swift */; };
 		26E762BE2B0EDE4D00007EBD /* SwiftUIVersionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E762BD2B0EDE4D00007EBD /* SwiftUIVersionApp.swift */; };
 		26E762C02B0EDE4D00007EBD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E762BF2B0EDE4D00007EBD /* ContentView.swift */; };
 		26E762C22B0EDE5000007EBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26E762C12B0EDE5000007EBD /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		269CEE572B10298400477D04 /* ComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentView.swift; sourceTree = "<group>"; };
 		26E762BA2B0EDE4D00007EBD /* SwiftUIVersion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIVersion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26E762BD2B0EDE4D00007EBD /* SwiftUIVersionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIVersionApp.swift; sourceTree = "<group>"; };
 		26E762BF2B0EDE4D00007EBD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				26E762D12B0EE71600007EBD /* TabBadgeView.swift */,
 				26E762D72B0EF23600007EBD /* ButtonView.swift */,
 				26E762DD2B0EF8E200007EBD /* MainView.swift */,
+				269CEE572B10298400477D04 /* ComponentView.swift */,
 				26E762E32B0F245D00007EBD /* ExampleProject */,
 				26E762C12B0EDE5000007EBD /* Assets.xcassets */,
 				26E762C32B0EDE5000007EBD /* Preview Content */,
@@ -236,6 +239,7 @@
 				26E762D02B0EE48300007EBD /* ForegroundWrapper.swift in Sources */,
 				26E762E02B0EF97A00007EBD /* NavigationWrapper.swift in Sources */,
 				26E762E82B0F24D800007EBD /* ExamplePointBackgroundText.swift in Sources */,
+				269CEE582B10298400477D04 /* ComponentView.swift in Sources */,
 				26E762F02B0F29A500007EBD /* ExampleNavigationStackWrapper.swift in Sources */,
 				26E762BE2B0EDE4D00007EBD /* SwiftUIVersionApp.swift in Sources */,
 				26E762D82B0EF23600007EBD /* ButtonView.swift in Sources */,
