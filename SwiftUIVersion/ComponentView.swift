@@ -37,7 +37,6 @@ struct ComponentView: View {
                 }
             .pickerStyle(.wheel)
             }
-            
         }
         
         
