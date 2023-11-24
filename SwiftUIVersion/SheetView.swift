@@ -14,10 +14,17 @@ struct SheetView: View {
     var body: some View {
         ZStack {
             Color.green.ignoresSafeArea()
-            Text("Hello, World!")
-                .wrapToButton {
-                    showSheet = true
+            VStack {
+                ShareLink(item: "https://www.naver.com") {
+                    Text("링크 공유하기")
                 }
+                
+                Text("Hello, World!")
+                    .wrapToButton {
+                        showSheet = true
+                }
+                
+            }
         }
         .sheet(isPresented: $showSheet) {
             ComponentView()
@@ -33,7 +40,7 @@ struct SheetView: View {
     }
 }
 
-// 고정된 형태로 쓸때 커스텀하게 만들 수 있음 
+// 고정된 형태로 쓸때 커스텀하게 만들 수 있음
 extension PresentationDetent {
     static let small = Self.height(200)
 }
